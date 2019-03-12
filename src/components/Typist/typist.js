@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Typist from 'react-typist';
+import { Typist } from 'react-typist';
 import "./typist.css";
 
-class Typist extends Component {
+class typist extends Component {
     render() {
         return (
             <div className="typist-container">

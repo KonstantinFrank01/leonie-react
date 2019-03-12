@@ -8,7 +8,8 @@ import pupilsImage from './images/pupils.jpeg'
 import Header from './components/Header/header.js';
 import Article from './components/Article/article.js';
 import Footer from './components/Footer/footer.js';
-//import Typist from './components/Typist/typist.js';
+import Typist from 'react-typist';
+import "./components/Typist/typist.css";
 
 class App extends Component {
   render() {
@@ -16,7 +17,13 @@ class App extends Component {
       <div className="App">
         <Header />
         <img src={heroImage} alt="Hero Image" style={{ height: '80vh'}}/>
-        {/* <Typist /> */}
+        <div className="typist-container">
+                <Typist avgTypingDelay={30}>
+                    <span className="typist-span-1" style={{zIndex: '10000', color: 'white'}}>Hallo, mein Name ist Leonie!</span><br />
+                    <span className="typist-span-2" style={{color: 'white'}}>Ich bin ein digitaler Spracherkennungs-Avatar <br/>und wurde von den Schülern<br/>der 
+                     HTL Leonding entwickelt.</span>
+                </Typist>
+        </div>
         <div class="container">
           <div class="mt-5 d-flex flex-row flex-wrap justify-content-around">
             <Article title={"Blick in technologische Zukunft"}
