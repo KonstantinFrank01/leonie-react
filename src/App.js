@@ -7,6 +7,7 @@ import meetingImage from './images/meeting.jpeg'
 import pupilsImage from './images/pupils.jpeg'
 import Header from './components/Header/header.js';
 import Article from './components/Article/article.js';
+import Footer from './components/Footer/footer.js';
 //import Typist from './components/Typist/typist.js';
 
 class App extends Component {
@@ -48,6 +49,7 @@ class App extends Component {
             </Article>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

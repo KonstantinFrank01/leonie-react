@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './footer.css'
+import { SocialIcon } from 'react-social-icons';
 
 class Footer extends Component {
     render() {
@@ -7,25 +7,30 @@ class Footer extends Component {
             <footer class="page-footer font-small special-color-dark pt-4">
                 <div class="container">
                     <ul class="list-unstyled list-inline text-center">
-                        <li class="list-inline-item">
-                            <a class="btn-flaoting btn-fb mx-1">
-                                <i class="fab fa-facebook-f" />
+                    <li class="list-inline-item">
+                            <a class="btn-flaoting mx-1" href="mailto:t.stuetz@htl-leonding.ac.at">
+                                <SocialIcon network="email" />
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn-flaoting btn-tw mx-1">
-                                <i class="fab fa-twitter" />
+                            <a class="btn-flaoting mx-1" href="https://www.facebook.com/htlleonding/">
+                                <SocialIcon network="facebook" />
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn-flaoting btn-li mx-1">
-                                <i class="fab fa-linkedin-in" />
+                            <a class="btn-flaoting mx-1" href="https://www.youtube.com/channel/UC5zrWVUTmjnWqdl-2Dt0DVg">
+                                <SocialIcon network="youtube" />
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-flaoting mx-1" href="https://www.instagram.com/htlleonding/">
+                                <SocialIcon network="instagram" />
                             </a>
                         </li>
                     </ul>
                 </div>
                 <div class="footer-copyright text-center py-3"> 2019 HTL Leonding: 
-                    <a href="http://www.htl-leonding.at/index.php?id=1561">htl-leonding.at</a>
+                    <a href="http://www.htl-leonding.at/index.php?id=1561"> htl-leonding.at</a>
                 </div>
             </footer>
         );
