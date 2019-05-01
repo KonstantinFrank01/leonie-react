@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import heroImage from './images/heroImage.jpg'
-import codeImage from './images/code.jpeg'
+import codeImage from './images/leonie_first_playcanvas_test.png'
 import girlImage from './images/girl.jpeg'
 import meetingImage from './images/meeting.jpeg'
 import pupilsImage from './images/pupils.jpeg'

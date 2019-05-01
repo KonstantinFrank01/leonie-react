@@ -84,7 +84,13 @@
 .btn {
     position: absolute;
     bottom: 15%;
-    opacity: 0;
+    opacity: 1;
+}
+.btn-primary {
+    color: #f63700;
+}
+.btn-primary:hover {
+    color: black;
 }
 .excerptHeader {
     color: white;
