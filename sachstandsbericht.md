@@ -10,7 +10,7 @@ Mit diesen beiden Technologien haben wir die Seite schon erstellt. Das Design ha
 ## Polymer
 Bei Polymer haben wir uns beide anfangs schwer getan, da wir Probleme mit den Dokumentationen hatten und schnell den Überblick verloren haben. Das Polymer-Einsteigerbeispiel (Github) ![Github Tutorial](images/githubTutorial.PNG) haben wir beide schon gemacht und sind nun dabei über die Ferien den Polymer-Videokurs ![Videokurs](images/videokurs.PNG) fertig anzusehen und, wenn möglich schon mit der dritten Beispielseite anzufangen.  
 
-Update: Die Polymer Seite ist fast fertig (es fehlt nur noch der Type Effekt)
+### Update: Die Polymer Seite ist fast fertig (es fehlt nur noch der Type Effekt)
 
 Ebenfalls möchten wir die Platzhalter (Bilder) auf den anderen beiden Seiten durch Bilder von Leonie und ihrem Entwicklerteam ersetzen. 
 
