@@ -10,5 +10,11 @@ oben genannten Technologien entscheiden und damit eine größere Website bauen.
 ## Anwendungsfalldiagramm 
 ![use-case diagramm](src/images/use-case.jpeg)
 
-## Systemarchitektur
-![systemarchitektur](src/images/architecture.jpeg)
+## Seite starten
+### Npm downloaden
+npm install 
+
+### Website laufen lassen
+npm start 
+
+Die Website kann man nun im Browser auf localhost:3000 aufrufen.
